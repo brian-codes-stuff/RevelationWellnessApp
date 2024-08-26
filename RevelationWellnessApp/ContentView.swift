@@ -1,8 +1,14 @@
-//
-//  ContentView.swift
-//  RevelationWellnessApp
-//
-//  Created by Brian Alonzo on 8/23/24.
-//
+import SwiftUI
 
-import Foundation
+struct ContentView: View {
+    var body: some View {
+        WebViewControllerWrapper()
+            .edgesIgnoringSafeArea(.all)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}

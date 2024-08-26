@@ -1,8 +1,11 @@
-//
-//  WebViewControllerWrapper.swift
-//  RevelationWellnessApp
-//
-//  Created by Brian Alonzo on 8/23/24.
-//
+import SwiftUI
 
-import Foundation
+struct WebViewControllerWrapper: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> WebViewController {
+        return WebViewController()
+    }
+
+    func updateUIViewController(_ uiViewController: WebViewController, context: Context) {
+        // No update necessary for now
+    }
+}

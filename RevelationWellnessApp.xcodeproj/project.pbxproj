@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77A152B12C78D80600C6085F /* RevelationWellnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152B02C78D80600C6085F /* RevelationWellnessAppApp.swift */; };
-		77A152B32C78D80600C6085F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152B22C78D80600C6085F /* ContentView.swift */; };
-		77A152B52C78D80700C6085F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A152B42C78D80700C6085F /* Assets.xcassets */; };
-		77A152B82C78D80700C6085F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A152B72C78D80700C6085F /* Preview Assets.xcassets */; };
 		77A152C22C78D80700C6085F /* RevelationWellnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152C12C78D80700C6085F /* RevelationWellnessAppTests.swift */; };
 		77A152CC2C78D80700C6085F /* RevelationWellnessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152CB2C78D80700C6085F /* RevelationWellnessAppUITests.swift */; };
 		77A152CE2C78D80700C6085F /* RevelationWellnessAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152CD2C78D80700C6085F /* RevelationWellnessAppUITestsLaunchTests.swift */; };
+		77A152DB2C78D90900C6085F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152DA2C78D90900C6085F /* WebViewController.swift */; };
+		77A152DD2C78D92700C6085F /* WebViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152DC2C78D92700C6085F /* WebViewControllerWrapper.swift */; };
+		77A152DF2C78D94400C6085F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152DE2C78D94400C6085F /* ContentView.swift */; };
+		77A152E12C78D95F00C6085F /* RWAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A152E02C78D95F00C6085F /* RWAppApp.swift */; };
+		77A152E32C78DB2400C6085F /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A152E22C78DB2400C6085F /* assets.xcassets */; };
+		77A152E52C78DB5500C6085F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A152E42C78DB5500C6085F /* Storyboard.storyboard */; };
+		77A152E72C78DBF500C6085F /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A152E62C78DBF500C6085F /* app-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +38,21 @@
 
 /* Begin PBXFileReference section */
 		77A152AD2C78D80600C6085F /* RevelationWellnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevelationWellnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77A152B02C78D80600C6085F /* RevelationWellnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevelationWellnessAppApp.swift; sourceTree = "<group>"; };
-		77A152B22C78D80600C6085F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		77A152B42C78D80700C6085F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77A152B72C78D80700C6085F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77A152BD2C78D80700C6085F /* RevelationWellnessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevelationWellnessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A152C12C78D80700C6085F /* RevelationWellnessAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevelationWellnessAppTests.swift; sourceTree = "<group>"; };
 		77A152C72C78D80700C6085F /* RevelationWellnessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevelationWellnessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A152CB2C78D80700C6085F /* RevelationWellnessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevelationWellnessAppUITests.swift; sourceTree = "<group>"; };
 		77A152CD2C78D80700C6085F /* RevelationWellnessAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevelationWellnessAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77A152DA2C78D90900C6085F /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		77A152DC2C78D92700C6085F /* WebViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllerWrapper.swift; sourceTree = "<group>"; };
+		77A152DE2C78D94400C6085F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77A152E02C78D95F00C6085F /* RWAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWAppApp.swift; sourceTree = "<group>"; };
+		77A152E22C78DB2400C6085F /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		77A152E42C78DB5500C6085F /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		77A152E62C78DBF500C6085F /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon.png"; path = "../../../../Library/CloudStorage/OneDrive-Personal/Downloads/app-icon.png"; sourceTree = "<group>"; };
+		77A152E82C78DDB600C6085F /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		77A152E92C78DE3B00C6085F /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon.png"; path = "../../../Library/CloudStorage/OneDrive-Personal/Downloads/app-icon.png"; sourceTree = "<group>"; };
+		77A152EA2C78DE4200C6085F /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon.png"; path = "../../Library/CloudStorage/OneDrive-Personal/Downloads/app-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,10 @@
 		77A152A42C78D80500C6085F = {
 			isa = PBXGroup;
 			children = (
+				77A152E22C78DB2400C6085F /* assets.xcassets */,
+				77A152E42C78DB5500C6085F /* Storyboard.storyboard */,
+				77A152EA2C78DE4200C6085F /* app-icon.png */,
+				77A152E82C78DDB600C6085F /* app-icon.png */,
 				77A152AF2C78D80600C6085F /* RevelationWellnessApp */,
 				77A152C02C78D80700C6085F /* RevelationWellnessAppTests */,
 				77A152CA2C78D80700C6085F /* RevelationWellnessAppUITests */,
@@ -94,10 +107,12 @@
 		77A152AF2C78D80600C6085F /* RevelationWellnessApp */ = {
 			isa = PBXGroup;
 			children = (
-				77A152B02C78D80600C6085F /* RevelationWellnessAppApp.swift */,
-				77A152B22C78D80600C6085F /* ContentView.swift */,
-				77A152B42C78D80700C6085F /* Assets.xcassets */,
+				77A152E92C78DE3B00C6085F /* app-icon.png */,
 				77A152B62C78D80700C6085F /* Preview Content */,
+				77A152DA2C78D90900C6085F /* WebViewController.swift */,
+				77A152DC2C78D92700C6085F /* WebViewControllerWrapper.swift */,
+				77A152DE2C78D94400C6085F /* ContentView.swift */,
+				77A152E02C78D95F00C6085F /* RWAppApp.swift */,
 			);
 			path = RevelationWellnessApp;
 			sourceTree = "<group>";
@@ -105,7 +120,7 @@
 		77A152B62C78D80700C6085F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				77A152B72C78D80700C6085F /* Preview Assets.xcassets */,
+				77A152E62C78DBF500C6085F /* app-icon.png */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -195,6 +210,7 @@
 				TargetAttributes = {
 					77A152AC2C78D80600C6085F = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					77A152BC2C78D80700C6085F = {
 						CreatedOnToolsVersion = 15.4;
@@ -231,8 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A152B82C78D80700C6085F /* Preview Assets.xcassets in Resources */,
-				77A152B52C78D80700C6085F /* Assets.xcassets in Resources */,
+				77A152E32C78DB2400C6085F /* assets.xcassets in Resources */,
+				77A152E52C78DB5500C6085F /* Storyboard.storyboard in Resources */,
+				77A152E72C78DBF500C6085F /* app-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A152B32C78D80600C6085F /* ContentView.swift in Sources */,
-				77A152B12C78D80600C6085F /* RevelationWellnessAppApp.swift in Sources */,
+				77A152E12C78D95F00C6085F /* RWAppApp.swift in Sources */,
+				77A152DB2C78D90900C6085F /* WebViewController.swift in Sources */,
+				77A152DD2C78D92700C6085F /* WebViewControllerWrapper.swift in Sources */,
+				77A152DF2C78D94400C6085F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,17 +438,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_ASSET_PATHS = "\"RevelationWellnessApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 86SS3JFGCU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Revelation Wellness RW+";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Storyboard.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = revelationwellness.RevelationWellnessApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +474,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_ASSET_PATHS = "\"RevelationWellnessApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 86SS3JFGCU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Revelation Wellness RW+";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Storyboard.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

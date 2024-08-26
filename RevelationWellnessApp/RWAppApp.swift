@@ -1,8 +1,10 @@
-//
-//  RWAppApp.swift
-//  RevelationWellnessApp
-//
-//  Created by Brian Alonzo on 8/23/24.
-//
+import SwiftUI
 
-import Foundation
+@main
+struct RWAppApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
